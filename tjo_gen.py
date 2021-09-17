@@ -7,7 +7,7 @@ import pandas as pd
 
 line_list = []
 
-with open(r'C:\Users\rainmes\Downloads\Tõde_ja_õigus_I.txt',encoding='UTF-8') as file:
+with open(r'\files\origin.txt',encoding='UTF-8') as file:
     for line in file:
         if len(line.rstrip()) > 5:
             line_list.append(line.rstrip())
